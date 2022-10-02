@@ -1,0 +1,23 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+int p;
+cout<<"Enter Your Principal amount = ";
+cin>>p;
+int t;
+cout<<"Enter the time for which you have taken  = ";
+cin>>t;
+int r;
+cout<<"Enter rate at which you have taken = ";
+cin>>r;
+int a = p*r*t /100;
+cout<<"This is the interest applied on your amount = "<< a <<endl;
+cout<<"____________________________________________"<<endl;
+cout<<"This is total amount which you have to pay = " << a + p<<endl;
+cout<<"____________________________________________"<<endl;
+
+
+
+}
